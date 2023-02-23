@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "test-svg",
+    "slug": "test-svg",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.notemann27.testsvg"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "packagerOpts": {
+      "config": "metro.config.js"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b3faf931-40e7-4395-a8cf-79429b95d2b6"
+      }
+    }
+  }
+}
